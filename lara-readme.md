@@ -85,9 +85,29 @@ LaraCMS 最初试图用 Laravel 为自己打造一把锋利建站工具，如今
 安装方法请移步
 https://www.kancloud.cn/wanglelecc/laracms/840009
 
-## 捐赠
-如果你觉得本项目给你带来了帮助，可以请作者喝一杯 [ 咖啡 ]
 
-<p><img src="./public/images/pay.jpg"></p>
+## 安装后
+```bash
+php artisan key:generate
+php artisan vendor:publish --tag=config
+php artisan vendor:publish --tag=public
+php artisan vendor:publish --tag=laracms-view-errors
+php artisan storage:link
+```
 
-> 捐赠不代表提供有偿服务，望须知。
+可以去看一下 public 目录下的 storage 软连接是否已存在，以此来判断。
+
+安装好之后，修改 .env 配置数据库。
+
+### 执行迁移
+```bash
+php artisan migrate
+
+```
+
+执行完就可以访问了（要先配置好虚拟主机）。
+http://example.com/administrator
+
+注：要先配置好数据库，默认用户: 
+admin@56br.com/123456
+
