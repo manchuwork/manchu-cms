@@ -2935,7 +2935,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:manchuwork/manchu-framework.git",
-                "reference": "7bc9a7a1fb52f1244d1ae7c78ec37889f1b01c37"
+                "reference": "fa3a21285cddd2263346d78557668bd1692d0547"
             },
             "require": {
                 "anchnet/aliyun-openapi-php-sdk": "dev-master",
@@ -3039,7 +3039,7 @@
                 }
             ],
             "description": "manchuwork LaraCMS Framework.",
-            "time": "2019-02-05 02:18:29"
+            "time": "2019-02-05 04:07:36"
         },
         {
             "name": "mews/captcha",

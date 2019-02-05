@@ -116,5 +116,5 @@ php artisan migrate
 http://example.com/administrator
 
 注：要先配置好数据库，默认用户: 
-admin@56br.com/123456
+admin@manchu.work/admin
 
