@@ -9,7 +9,7 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "wanglelecc/laracms-framework": "^1.0"
+        "manchuwork/manchu-framework":"dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -70,6 +70,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "repositories": {
-        
+        "manchuwork/manchu-framework": {
+            "type": "git",
+            "url": "git@github.com:manchuwork/manchu-framework.git"
+        }
     }
 }
