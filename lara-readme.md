@@ -87,6 +87,13 @@ https://www.kancloud.cn/wanglelecc/laracms/840009
 
 
 ## 安装后
+
+修改参数
+```bash
+cp .env .env.example
+```
+修改数据库配置
+
 ```bash
 php artisan key:generate
 php artisan vendor:publish --tag=config
