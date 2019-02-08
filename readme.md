@@ -23,3 +23,7 @@ www.manchu.work 满族空间
 > 中文分词会占用内存，请将 `php.ini` 的 `memory_limit` 参数调整至 256M
 
 
+注：要先配置好数据库，默认用户: 
+admin@manchu.work/admin
+
+
