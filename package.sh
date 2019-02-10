@@ -29,6 +29,8 @@ rm -rf $TARGET_BASE_DIR/.gitignore
 rm -rf $TARGET_BASE_DIR/.idea
 
 rm -rf $TARGET_BASE_DIR/public/css_bak
+## 清除 stroage 关联
+rm -rf $TARGET_BASE_DIR/public/storage
 
 #rm -rf $TARGET_BASE_DIR/storage
 rm -rf $TARGET_BASE_DIR/storage/app/public/*
