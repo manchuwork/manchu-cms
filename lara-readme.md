@@ -109,9 +109,11 @@ php artisan storage:link
 ### 强制覆盖 使用vendor替换目前的文件
 ```bash
 php artisan key:generate
+
 php artisan vendor:publish --tag=config --force
 php artisan vendor:publish --tag=public --force
 php artisan vendor:publish --tag=laracms-view-errors --force
+
 php artisan storage:link
 ```
 ### 执行迁移
