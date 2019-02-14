@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d6ef4e3a0aaada3546468ca7b779b978",
+    "content-hash": "33919f66f2588887c1a988eeb6be5329",
     "packages": [
         {
             "name": "aliyuncs/oss-sdk-php",
@@ -8856,12 +8856,62 @@
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
             "time": "2017-04-07T12:08:54+00:00"
+        },
+        {
+            "name": "wanglelecc/laracms-generator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wanglelecc/laracms-generator.git",
+                "reference": "3c41f29c494ce86a6f7106caf7552b53f61699c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wanglelecc/laracms-generator/zipball/3c41f29c494ce86a6f7106caf7552b53f61699c3",
+                "reference": "3c41f29c494ce86a6f7106caf7552b53f61699c3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.3"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Wanglelecc\\Laracms\\Generator\\GeneratorsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Wanglelecc\\Laracms\\Generator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "wanglelecc",
+                    "email": "wanglelecc@gmail.com"
+                }
+            ],
+            "description": "Extend LaraCMS generators scaffold.",
+            "keywords": [
+                "generators",
+                "laracms",
+                "laravel",
+                "scaffold"
+            ],
+            "time": "2018-11-17T16:26:38+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "manchuwork/manchu-framework": 20
+        "manchuwork/manchu-framework": 20,
+        "wanglelecc/laracms-generator": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
