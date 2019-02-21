@@ -1216,16 +1216,16 @@
         },
         {
             "name": "graham-campbell/manager",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Laravel-Manager.git",
-                "reference": "850e7ab0c63eb816a5ed17158df1cf78827919fb"
+                "reference": "ba3e236392665425723b2b967196aeeabc7f929f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Manager/zipball/850e7ab0c63eb816a5ed17158df1cf78827919fb",
-                "reference": "850e7ab0c63eb816a5ed17158df1cf78827919fb",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Manager/zipball/ba3e236392665425723b2b967196aeeabc7f929f",
+                "reference": "ba3e236392665425723b2b967196aeeabc7f929f",
                 "shasum": ""
             },
             "require": {
@@ -1237,7 +1237,7 @@
                 "graham-campbell/analyzer": "^2.1",
                 "graham-campbell/testbench-core": "^3.0",
                 "mockery/mockery": "^1.0",
-                "phpunit/phpunit": "^6.5|^7.0"
+                "phpunit/phpunit": "^6.5|^7.0|^8.0"
             },
             "type": "library",
             "extra": {
@@ -1272,7 +1272,7 @@
                 "laravel",
                 "manager"
             ],
-            "time": "2019-01-29T14:38:38+00:00"
+            "time": "2019-02-16T14:23:38+00:00"
         },
         {
             "name": "gregwar/captcha",
@@ -1986,16 +1986,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.7.26",
+            "version": "v5.7.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "ca3bc9769969e8af3bd9878a3e0242051c74dae4"
+                "reference": "688fbfa889d43f392825b381ad3981847120fdfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/ca3bc9769969e8af3bd9878a3e0242051c74dae4",
-                "reference": "ca3bc9769969e8af3bd9878a3e0242051c74dae4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/688fbfa889d43f392825b381ad3981847120fdfa",
+                "reference": "688fbfa889d43f392825b381ad3981847120fdfa",
                 "shasum": ""
             },
             "require": {
@@ -2128,7 +2128,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2019-02-12T14:52:21+00:00"
+            "time": "2019-02-19T14:37:47+00:00"
         },
         {
             "name": "laravel/nexmo-notification-channel",
@@ -2842,7 +2842,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:manchuwork/manchu-framework.git",
-                "reference": "cc391b506aa25ee707b93b4368234389f4a81d5e"
+                "reference": "28ca90ca34225004eb5d27b06d936b258a454337"
             },
             "require": {
                 "anchnet/aliyun-openapi-php-sdk": "dev-master",
@@ -2947,7 +2947,7 @@
                 }
             ],
             "description": "manchuwork LaraCMS Framework.",
-            "time": "2019-02-14T16:24:49+00:00"
+            "time": "2019-02-20T14:38:10+00:00"
         },
         {
             "name": "mews/captcha",
@@ -3530,16 +3530,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v4.2.0",
+            "version": "v4.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a"
+                "reference": "5221f49a608808c1e4d436df32884cbc1b821ac0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
-                "reference": "594bcae1fc0bccd3993d2f0d61a018e26ac2865a",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/5221f49a608808c1e4d436df32884cbc1b821ac0",
+                "reference": "5221f49a608808c1e4d436df32884cbc1b821ac0",
                 "shasum": ""
             },
             "require": {
@@ -3577,7 +3577,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2019-01-12T16:31:37+00:00"
+            "time": "2019-02-16T20:54:15+00:00"
         },
         {
             "name": "opis/closure",
@@ -3892,16 +3892,16 @@
         },
         {
             "name": "overtrue/socialite",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/socialite.git",
-                "reference": "02a18ba1e1d950ca64861b27bc51b4fe1cd54783"
+                "reference": "1b3bc250204df1e9edab44bbcbf856cc526fccb3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/socialite/zipball/02a18ba1e1d950ca64861b27bc51b4fe1cd54783",
-                "reference": "02a18ba1e1d950ca64861b27bc51b4fe1cd54783",
+                "url": "https://api.github.com/repos/overtrue/socialite/zipball/1b3bc250204df1e9edab44bbcbf856cc526fccb3",
+                "reference": "1b3bc250204df1e9edab44bbcbf856cc526fccb3",
                 "shasum": ""
             },
             "require": {
@@ -3938,20 +3938,20 @@
                 "wechat",
                 "weibo"
             ],
-            "time": "2019-01-29T09:13:21+00:00"
+            "time": "2019-02-15T08:08:22+00:00"
         },
         {
             "name": "overtrue/wechat",
-            "version": "4.1.18",
+            "version": "4.1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/wechat.git",
-                "reference": "5548ece9897aa5a757e6752a33ba6d342d9f1f85"
+                "reference": "3737fd0fad45f8f1692318b5cc26137ce71025dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/wechat/zipball/5548ece9897aa5a757e6752a33ba6d342d9f1f85",
-                "reference": "5548ece9897aa5a757e6752a33ba6d342d9f1f85",
+                "url": "https://api.github.com/repos/overtrue/wechat/zipball/3737fd0fad45f8f1692318b5cc26137ce71025dd",
+                "reference": "3737fd0fad45f8f1692318b5cc26137ce71025dd",
                 "shasum": ""
             },
             "require": {
@@ -4001,7 +4001,7 @@
                 "weixin",
                 "weixin-sdk"
             ],
-            "time": "2019-01-22T04:09:07+00:00"
+            "time": "2019-02-15T08:47:31+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -5157,27 +5157,27 @@
         },
         {
             "name": "spatie/laravel-permission",
-            "version": "2.32.0",
+            "version": "2.33.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-permission.git",
-                "reference": "a6ddad06f2d8899178a909f72cddfea497e1e9cf"
+                "reference": "9da0a1618b0c85f71ef7e11b942d5f6f92d2c063"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/a6ddad06f2d8899178a909f72cddfea497e1e9cf",
-                "reference": "a6ddad06f2d8899178a909f72cddfea497e1e9cf",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/9da0a1618b0c85f71ef7e11b942d5f6f92d2c063",
+                "reference": "9da0a1618b0c85f71ef7e11b942d5f6f92d2c063",
                 "shasum": ""
             },
             "require": {
-                "illuminate/auth": "~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0",
-                "illuminate/container": "~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0",
-                "illuminate/contracts": "~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0",
-                "illuminate/database": "~5.4.0|~5.5.0|~5.6.0|~5.7.0",
+                "illuminate/auth": "~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0",
+                "illuminate/container": "~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0",
+                "illuminate/contracts": "~5.3.0|~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0",
+                "illuminate/database": "~5.4.0|~5.5.0|~5.6.0|~5.7.0|~5.8.0",
                 "php": ">=7.0"
             },
             "require-dev": {
-                "orchestra/testbench": "~3.4.2|~3.5.0|~3.6.0|~3.7.0",
+                "orchestra/testbench": "~3.4.2|~3.5.0|~3.6.0|~3.7.0|~3.8.0",
                 "phpunit/phpunit": "^5.7|6.2|^7.0",
                 "predis/predis": "^1.1"
             },
@@ -5218,7 +5218,7 @@
                 "security",
                 "spatie"
             ],
-            "time": "2019-02-13T16:05:27+00:00"
+            "time": "2019-02-20T15:56:22+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -8071,16 +8071,16 @@
         },
         {
             "name": "phpunit/php-timer",
-            "version": "2.0.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-timer.git",
-                "reference": "8b8454ea6958c3dee38453d3bd571e023108c91f"
+                "reference": "8b389aebe1b8b0578430bda0c7c95a829608e059"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/8b8454ea6958c3dee38453d3bd571e023108c91f",
-                "reference": "8b8454ea6958c3dee38453d3bd571e023108c91f",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-timer/zipball/8b389aebe1b8b0578430bda0c7c95a829608e059",
+                "reference": "8b389aebe1b8b0578430bda0c7c95a829608e059",
                 "shasum": ""
             },
             "require": {
@@ -8092,7 +8092,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
@@ -8116,7 +8116,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2018-02-01T13:07:23+00:00"
+            "time": "2019-02-20T10:12:59+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -8169,16 +8169,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.5.4",
+            "version": "7.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "2896657da5fb237bc316bdfc18c2650efeee0dc0"
+                "reference": "09c85e14994df92e5ff1f5ec0b481bdb7d3d3df9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/2896657da5fb237bc316bdfc18c2650efeee0dc0",
-                "reference": "2896657da5fb237bc316bdfc18c2650efeee0dc0",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/09c85e14994df92e5ff1f5ec0b481bdb7d3d3df9",
+                "reference": "09c85e14994df92e5ff1f5ec0b481bdb7d3d3df9",
                 "shasum": ""
             },
             "require": {
@@ -8249,7 +8249,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-02-07T14:15:04+00:00"
+            "time": "2019-02-18T09:24:50+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
