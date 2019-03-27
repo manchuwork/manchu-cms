@@ -198,16 +198,16 @@
         },
         {
             "name": "caouecs/laravel-lang",
-            "version": "3.0.61",
+            "version": "3.0.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/caouecs/Laravel-lang.git",
-                "reference": "b37092a33e596a2bb959931a3fcc167b57b7d890"
+                "reference": "fcb8cec051b175278e0a9efa440f0b1033d12dd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/b37092a33e596a2bb959931a3fcc167b57b7d890",
-                "reference": "b37092a33e596a2bb959931a3fcc167b57b7d890",
+                "url": "https://api.github.com/repos/caouecs/Laravel-lang/zipball/fcb8cec051b175278e0a9efa440f0b1033d12dd7",
+                "reference": "fcb8cec051b175278e0a9efa440f0b1033d12dd7",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -243,7 +243,7 @@
                 "laravel",
                 "lpm"
             ],
-            "time": "2019-03-09T10:50:01+00:00"
+            "time": "2019-03-17T10:36:46+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -497,16 +497,16 @@
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.6.0",
+            "version": "v1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "c7f2050c68a9ab0bdb0f98567ec08d80ea7d24d5"
+                "reference": "53120e0eb10355388d6ccbe462f1fea34ddadb24"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/c7f2050c68a9ab0bdb0f98567ec08d80ea7d24d5",
-                "reference": "c7f2050c68a9ab0bdb0f98567ec08d80ea7d24d5",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/53120e0eb10355388d6ccbe462f1fea34ddadb24",
+                "reference": "53120e0eb10355388d6ccbe462f1fea34ddadb24",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -567,7 +567,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2017-12-06T07:11:42+00:00"
+            "time": "2019-03-25T19:12:02+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -1121,16 +1121,16 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.7.1",
+            "version": "v1.7.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1"
+                "reference": "d60bcdc46978357759ecb13cb4b078da783f8faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
-                "reference": "92e9c27ba0e74b8b028b111d1b6f956a15c01fc1",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/d60bcdc46978357759ecb13cb4b078da783f8faf",
+                "reference": "d60bcdc46978357759ecb13cb4b078da783f8faf",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -1169,7 +1169,7 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2018-03-08T01:11:30+00:00"
+            "time": "2019-03-17T17:19:46+00:00"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -3124,7 +3124,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:manchuwork/manchu-framework.git",
-                "reference": "6466704150e76b01574fb072e914724d0fec6186"
+                "reference": "c3fd4e7b31c24dd708b393f329e9a6c75a37001d"
             },
             "require": {
                 "anchnet/aliyun-openapi-php-sdk": "dev-master",
@@ -3229,7 +3229,7 @@
                 }
             ],
             "description": "manchuwork LaraCMS Framework.",
-            "time": "2019-03-16T07:33:37+00:00"
+            "time": "2019-03-27T06:01:57+00:00"
         },
         {
             "name": "mews/captcha",
@@ -3387,16 +3387,16 @@
         },
         {
             "name": "microsoft/azure-storage-blob",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Azure/azure-storage-blob-php.git",
-                "reference": "6a89f277e876056cc80bd867f7d6104557ee26a4"
+                "reference": "6fcef8b68227b190854296d5d159aa666418873d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Azure/azure-storage-blob-php/zipball/6a89f277e876056cc80bd867f7d6104557ee26a4",
-                "reference": "6a89f277e876056cc80bd867f7d6104557ee26a4",
+                "url": "https://api.github.com/repos/Azure/azure-storage-blob-php/zipball/6fcef8b68227b190854296d5d159aa666418873d",
+                "reference": "6fcef8b68227b190854296d5d159aa666418873d",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3406,7 +3406,7 @@
                 ]
             },
             "require": {
-                "microsoft/azure-storage-common": "~1.2.0",
+                "microsoft/azure-storage-common": "~1.3.0",
                 "php": ">=5.6.0"
             },
             "type": "library",
@@ -3433,20 +3433,20 @@
                 "sdk",
                 "storage"
             ],
-            "time": "2018-08-02T11:05:31+00:00"
+            "time": "2019-03-26T10:04:16+00:00"
         },
         {
             "name": "microsoft/azure-storage-common",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Azure/azure-storage-common-php.git",
-                "reference": "5a721c15a4eba9233e423203bee168e47c7f8682"
+                "reference": "154c2c38203297035fb718689b691b15adfd49ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Azure/azure-storage-common-php/zipball/5a721c15a4eba9233e423203bee168e47c7f8682",
-                "reference": "5a721c15a4eba9233e423203bee168e47c7f8682",
+                "url": "https://api.github.com/repos/Azure/azure-storage-common-php/zipball/154c2c38203297035fb718689b691b15adfd49ab",
+                "reference": "154c2c38203297035fb718689b691b15adfd49ab",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -3483,7 +3483,7 @@
                 "sdk",
                 "storage"
             ],
-            "time": "2018-08-02T10:54:53+00:00"
+            "time": "2019-03-26T09:52:54+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -4061,16 +4061,16 @@
         },
         {
             "name": "overtrue/easy-sms",
-            "version": "1.1.9",
+            "version": "1.1.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/easy-sms.git",
-                "reference": "25e8ec71696b72a3c9d500a36292ba1b5fee06c2"
+                "reference": "b1d181551944710f63cd3049796225c71badca86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/easy-sms/zipball/25e8ec71696b72a3c9d500a36292ba1b5fee06c2",
-                "reference": "25e8ec71696b72a3c9d500a36292ba1b5fee06c2",
+                "url": "https://api.github.com/repos/overtrue/easy-sms/zipball/b1d181551944710f63cd3049796225c71badca86",
+                "reference": "b1d181551944710f63cd3049796225c71badca86",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4085,7 +4085,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "1.0.x-dev",
-                "phpunit/phpunit": "^5.6"
+                "phpunit/phpunit": "^5.7 || ^7.5"
             },
             "type": "library",
             "autoload": {
@@ -4104,7 +4104,7 @@
                 }
             ],
             "description": "The easiest way to send short message.",
-            "time": "2019-02-27T13:36:46+00:00"
+            "time": "2019-03-25T07:42:05+00:00"
         },
         {
             "name": "overtrue/laravel-lang",
@@ -4269,16 +4269,16 @@
         },
         {
             "name": "overtrue/socialite",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/socialite.git",
-                "reference": "4014295c54cd8b3c2263ab5a2f47b7b5148babbf"
+                "reference": "913f2f7a0a01f2b7a0cecc8dba57ec88af082b4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/socialite/zipball/4014295c54cd8b3c2263ab5a2f47b7b5148babbf",
-                "reference": "4014295c54cd8b3c2263ab5a2f47b7b5148babbf",
+                "url": "https://api.github.com/repos/overtrue/socialite/zipball/913f2f7a0a01f2b7a0cecc8dba57ec88af082b4d",
+                "reference": "913f2f7a0a01f2b7a0cecc8dba57ec88af082b4d",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4321,20 +4321,20 @@
                 "wechat",
                 "weibo"
             ],
-            "time": "2019-03-05T05:45:34+00:00"
+            "time": "2019-03-26T08:12:31+00:00"
         },
         {
             "name": "overtrue/wechat",
-            "version": "4.1.20",
+            "version": "4.1.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/wechat.git",
-                "reference": "825fe019e8a0ae5ad1878e1fd53c50856350f49c"
+                "reference": "ff30cb8227f7eef7a1009a2e3d7a07f5b49ce3be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/wechat/zipball/825fe019e8a0ae5ad1878e1fd53c50856350f49c",
-                "reference": "825fe019e8a0ae5ad1878e1fd53c50856350f49c",
+                "url": "https://api.github.com/repos/overtrue/wechat/zipball/ff30cb8227f7eef7a1009a2e3d7a07f5b49ce3be",
+                "reference": "ff30cb8227f7eef7a1009a2e3d7a07f5b49ce3be",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4390,7 +4390,7 @@
                 "weixin",
                 "weixin-sdk"
             ],
-            "time": "2019-03-13T06:33:50+00:00"
+            "time": "2019-03-21T06:06:41+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -4849,16 +4849,16 @@
         },
         {
             "name": "piwik/device-detector",
-            "version": "3.11.5",
+            "version": "3.11.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matomo-org/device-detector.git",
-                "reference": "cce3213e9b42deaacd21d33c02811c59b6e54099"
+                "reference": "96d35ccd3dacf973b9b24a52686018cc047d45ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/cce3213e9b42deaacd21d33c02811c59b6e54099",
-                "reference": "cce3213e9b42deaacd21d33c02811c59b6e54099",
+                "url": "https://api.github.com/repos/matomo-org/device-detector/zipball/96d35ccd3dacf973b9b24a52686018cc047d45ae",
+                "reference": "96d35ccd3dacf973b9b24a52686018cc047d45ae",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4906,7 +4906,7 @@
                 "parser",
                 "useragent"
             ],
-            "time": "2019-02-10T21:21:01+00:00"
+            "time": "2019-03-24T11:37:05+00:00"
         },
         {
             "name": "predis/predis",
@@ -6459,16 +6459,16 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19"
+                "reference": "82ebae02209c21113908c229e9883c419720738a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/e3d826245268269cd66f8326bd8bc066687b4a19",
-                "reference": "e3d826245268269cd66f8326bd8bc066687b4a19",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/82ebae02209c21113908c229e9883c419720738a",
+                "reference": "82ebae02209c21113908c229e9883c419720738a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6486,7 +6486,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -6508,7 +6508,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "BackEndTea@gmail.com"
+                    "email": "backendtea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -6519,20 +6519,20 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-iconv",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-iconv.git",
-                "reference": "97001cfc283484c9691769f51cdf25259037eba2"
+                "reference": "f037ea22acfaee983e271dd9c3b8bb4150bd8ad7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/97001cfc283484c9691769f51cdf25259037eba2",
-                "reference": "97001cfc283484c9691769f51cdf25259037eba2",
+                "url": "https://api.github.com/repos/symfony/polyfill-iconv/zipball/f037ea22acfaee983e271dd9c3b8bb4150bd8ad7",
+                "reference": "f037ea22acfaee983e271dd9c3b8bb4150bd8ad7",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6550,7 +6550,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -6584,20 +6584,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-21T06:26:08+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "89de1d44f2c059b266f22c9cc9124ddc4cd0987a"
+                "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/89de1d44f2c059b266f22c9cc9124ddc4cd0987a",
-                "reference": "89de1d44f2c059b266f22c9cc9124ddc4cd0987a",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/c766e95bec706cdd89903b1eda8afab7d7a6b7af",
+                "reference": "c766e95bec706cdd89903b1eda8afab7d7a6b7af",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6652,20 +6652,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-30T16:36:12+00:00"
+            "time": "2019-03-04T13:44:35+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
-                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/fe5e94c604826c35a32fa832f35bd036b6799609",
+                "reference": "fe5e94c604826c35a32fa832f35bd036b6799609",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6683,7 +6683,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -6717,20 +6717,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-21T13:07:52+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "ff208829fe1aa48ab9af356992bb7199fed551af"
+                "reference": "f4dddbc5c3471e1b700a147a20ae17cdb72dbe42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/ff208829fe1aa48ab9af356992bb7199fed551af",
-                "reference": "ff208829fe1aa48ab9af356992bb7199fed551af",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/f4dddbc5c3471e1b700a147a20ae17cdb72dbe42",
+                "reference": "f4dddbc5c3471e1b700a147a20ae17cdb72dbe42",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6746,7 +6746,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -6779,20 +6779,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-21T06:26:08+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "9050816e2ca34a8e916c3a0ae8b9c2fccf68b631"
+                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/9050816e2ca34a8e916c3a0ae8b9c2fccf68b631",
-                "reference": "9050816e2ca34a8e916c3a0ae8b9c2fccf68b631",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/ab50dcf166d5f577978419edd37aa2bb8eabce0c",
+                "reference": "ab50dcf166d5f577978419edd37aa2bb8eabce0c",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6807,7 +6807,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -6840,20 +6840,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-09-21T13:07:52+00:00"
+            "time": "2019-02-06T07:57:58+00:00"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.10.0",
+            "version": "v1.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "3b58903eae668d348a7126f999b0da0f2f93611c"
+                "reference": "b46c6cae28a3106735323f00a0c38eccf2328897"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/3b58903eae668d348a7126f999b0da0f2f93611c",
-                "reference": "3b58903eae668d348a7126f999b0da0f2f93611c",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/b46c6cae28a3106735323f00a0c38eccf2328897",
+                "reference": "b46c6cae28a3106735323f00a0c38eccf2328897",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6868,7 +6868,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9-dev"
+                    "dev-master": "1.11-dev"
                 }
             },
             "autoload": {
@@ -6898,7 +6898,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2018-09-30T16:36:12+00:00"
+            "time": "2019-02-08T14:16:39+00:00"
         },
         {
             "name": "symfony/process",
@@ -8129,16 +8129,16 @@
         },
         {
             "name": "doctrine/instantiator",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda"
+                "reference": "a2c590166b2133a4633738648b6b064edae0814a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda",
-                "reference": "185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/a2c590166b2133a4633738648b6b064edae0814a",
+                "reference": "a2c590166b2133a4633738648b6b064edae0814a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8151,11 +8151,13 @@
                 "php": "^7.1"
             },
             "require-dev": {
-                "athletic/athletic": "~0.1.8",
+                "doctrine/coding-standard": "^6.0",
                 "ext-pdo": "*",
                 "ext-phar": "*",
-                "phpunit/phpunit": "^6.2.3",
-                "squizlabs/php_codesniffer": "^3.0.2"
+                "phpbench/phpbench": "^0.13",
+                "phpstan/phpstan-phpunit": "^0.11",
+                "phpstan/phpstan-shim": "^0.11",
+                "phpunit/phpunit": "^7.0"
             },
             "type": "library",
             "extra": {
@@ -8180,12 +8182,12 @@
                 }
             ],
             "description": "A small, lightweight utility to instantiate objects in PHP without invoking their constructors",
-            "homepage": "https://github.com/doctrine/instantiator",
+            "homepage": "https://www.doctrine-project.org/projects/instantiator.html",
             "keywords": [
                 "constructor",
                 "instantiate"
             ],
-            "time": "2017-07-22T11:58:36+00:00"
+            "time": "2019-03-17T17:37:11+00:00"
         },
         {
             "name": "filp/whoops",
@@ -9142,16 +9144,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.5.7",
+            "version": "7.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "eb343b86753d26de07ecba7868fa983104361948"
+                "reference": "c29c0525cf4572c11efe1db49a8b8aee9dfac58a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/eb343b86753d26de07ecba7868fa983104361948",
-                "reference": "eb343b86753d26de07ecba7868fa983104361948",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c29c0525cf4572c11efe1db49a8b8aee9dfac58a",
+                "reference": "c29c0525cf4572c11efe1db49a8b8aee9dfac58a",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -9228,7 +9230,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-03-16T07:31:17+00:00"
+            "time": "2019-03-26T13:23:54+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
