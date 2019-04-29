@@ -128,3 +128,161 @@ http://example.com/administrator
 注：要先配置好数据库，默认用户: 
 admin@manchu.work/admin
 
+# 其他：
+# 生成索引
+```
+php artisan laracms:article-index
+```
+#清理文件分片
+前端文件上传开启分片上传后，可能会因网络问题上传失败，残留在服务器上，所以每天午夜执行定期执行一次清理工作。
+
+### 手动清理
+
+```
+php artisan laracms:uploader
+```
+# 区块同步
+区块信息虽然保存在数据库，但不可再后台创建和删除，只能配置。添加删除区块，只可以再配置文件配置，然后通过命令同步。主要是考虑到项目上线后，再次迭代开发，区块信息不同步的，通过命令可以一键同步，避免手工操作出错。
+
+```
+php artisan laracms:sync-block
+```
+# 清理分片
+### 清理文件分片
+前端文件上传开启分片上传后，可能会因网络问题上传失败，残留在服务器上，所以每天午夜执行定期执行一次清理工作。
+
+手动清理
+```
+php artisan laracms:uploader
+```
+模型授权
+定义授权
+路径：app/Policies
+
+示例：
+定义授权
+```php
+
+app/Policies/BlockPolicy.php
+
+namespace App\Policies;
+
+use App\Models\User;
+use App\Models\Block;
+
+/**
+ * 区块授权策略
+ *
+ * Class BlockPolicy
+ * @package Wanglelecc\Laracms\Policies
+ */
+class BlockPolicy extends Policy
+{
+
+    public function index(User $user, Block $block)
+    {
+        return $user->can('manage_block');
+    }
+
+    public function create(User $user, Block $block)
+    {
+        return false;
+    }
+
+    public function update(User $user, Block $block)
+    {
+        return $user->can('manage_block');
+    }
+
+    public function destroy(User $user, Block $block)
+    {
+        return false;
+    }
+}
+```
+
+可通过 Laravel 提供的 php artisan make:policy 自动生成；检查的权限节点需要预先添加。
+
+#注册授权
+在 AuthServiceProvider 服务提供者的 policies 属性中：
+
+```php
+protected $policies = [
+    .
+    .
+    .
+   \App\Models\Block::class => \App\Policies\BlockPolicy::class,
+    .
+    .
+    .
+]
+```
+
+#使用授权
+一般在控制器中使用
+BlocksController:
+```php
+
+ public function create(Block $block, Request $request){
+       # 调用授权
+       $this->authorize('create', $block);
+       $type = config('blocks.types.'.$request->type) ?  $request->type : '';
+
+      return backend_view('blocks.create_and_edit', compact('block', 'type'));
+  }
+```
+  
+  
+  
+
+# 模型观察者
+###  观察者
+####  路径：app/Observers
+###  示例：
+###  定义观察者
+```php
+  app/Observers/BlockObserver.php
+  
+  namespace App\Observers;
+  
+  use App\Models\Block;
+  use Illuminate\Support\Facades\Auth;
+  
+  // creating, created, updating, updated, saving,
+  // saved,  deleting, deleted, restoring, restored
+  
+  /**
+   * 区块观察者
+   *
+   * Class BlockObserver
+   * @package Wanglelecc\Laracms\Observers
+   */
+  class BlockObserver
+  {
+      public function creating(Block $block)
+      {
+          $block->object_id || $block->object_id = create_object_id();
+          $block->created_op || $block->created_op = Auth::id();
+          $block->updated_op || $block->updated_op = Auth::id();
+      }
+  
+      public function updating(Block $block)
+      {
+          $block->updated_op = Auth::id();
+      }
+      
+      public function updated(Block $block){
+          Block::clearCache($block->object_id);
+      }
+  
+      public function saving(Block $block){
+          if(is_array($block->content) || is_object($block->content)){
+              $block->content = json_encode($block->content, JSON_UNESCAPED_UNICODE);
+          }
+      }
+  }
+
+```
+
+  可通过 Laravel 提供的 php artisan make:observer 自动生成
+  
