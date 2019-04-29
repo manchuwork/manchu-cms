@@ -2741,16 +2741,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.50",
+            "version": "1.0.51",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "dab4e7624efa543a943be978008f439c333f2249"
+                "reference": "755ba7bf3fb9031e6581d091db84d78275874396"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/dab4e7624efa543a943be978008f439c333f2249",
-                "reference": "dab4e7624efa543a943be978008f439c333f2249",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/755ba7bf3fb9031e6581d091db84d78275874396",
+                "reference": "755ba7bf3fb9031e6581d091db84d78275874396",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -2827,7 +2827,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2019-02-01T08:50:36+00:00"
+            "time": "2019-03-30T13:22:34+00:00"
         },
         {
             "name": "league/flysystem-azure-blob-storage",
@@ -3124,7 +3124,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:manchuwork/manchu-framework.git",
-                "reference": "c3fd4e7b31c24dd708b393f329e9a6c75a37001d"
+                "reference": "6e8635745e78f576c20fbcc180de38be0da237b4"
             },
             "require": {
                 "anchnet/aliyun-openapi-php-sdk": "dev-master",
@@ -3229,7 +3229,7 @@
                 }
             ],
             "description": "manchuwork LaraCMS Framework.",
-            "time": "2019-03-27T06:01:57+00:00"
+            "time": "2019-03-30T14:57:08+00:00"
         },
         {
             "name": "mews/captcha",
@@ -4325,16 +4325,16 @@
         },
         {
             "name": "overtrue/wechat",
-            "version": "4.1.21",
+            "version": "4.1.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/overtrue/wechat.git",
-                "reference": "ff30cb8227f7eef7a1009a2e3d7a07f5b49ce3be"
+                "reference": "b922f89fa8754fd7a5ea9f62c090773b7f593e64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/overtrue/wechat/zipball/ff30cb8227f7eef7a1009a2e3d7a07f5b49ce3be",
-                "reference": "ff30cb8227f7eef7a1009a2e3d7a07f5b49ce3be",
+                "url": "https://api.github.com/repos/overtrue/wechat/zipball/b922f89fa8754fd7a5ea9f62c090773b7f593e64",
+                "reference": "b922f89fa8754fd7a5ea9f62c090773b7f593e64",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4390,7 +4390,7 @@
                 "weixin",
                 "weixin-sdk"
             ],
-            "time": "2019-03-21T06:06:41+00:00"
+            "time": "2019-03-28T02:58:14+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -7607,16 +7607,16 @@
         },
         {
             "name": "ua-parser/uap-php",
-            "version": "v3.8.6",
+            "version": "v3.8.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ua-parser/uap-php.git",
-                "reference": "f04d8fbe9aae8130e688a2bb325a40f4067c4dd7"
+                "reference": "3004c494d204c3b6d5e1e80a4ff78e4025e24e2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ua-parser/uap-php/zipball/f04d8fbe9aae8130e688a2bb325a40f4067c4dd7",
-                "reference": "f04d8fbe9aae8130e688a2bb325a40f4067c4dd7",
+                "url": "https://api.github.com/repos/ua-parser/uap-php/zipball/3004c494d204c3b6d5e1e80a4ff78e4025e24e2f",
+                "reference": "3004c494d204c3b6d5e1e80a4ff78e4025e24e2f",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -7666,7 +7666,7 @@
                 }
             ],
             "description": "A multi-language port of Browserscope's user agent parser.",
-            "time": "2019-02-14T09:54:15+00:00"
+            "time": "2019-03-19T09:54:19+00:00"
         },
         {
             "name": "vinkla/hashids",
