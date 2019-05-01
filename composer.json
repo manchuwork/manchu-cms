@@ -9,7 +9,8 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "manchuwork/manchu-framework":"dev-master"
+        "manchuwork/manchu-framework":"dev-master",
+        "manchuwork/laravel-scout-tntsearch-driver":"dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -73,6 +74,10 @@
         "manchuwork/manchu-framework": {
             "type": "git",
             "url": "git@github.com:manchuwork/manchu-framework.git"
+        },
+        "manchuwork/laravel-scout-tntsearch-driver": {
+            "type": "git",
+            "url": "git@github.com:manchuwork/laravel-scout-tntsearch-driver.git"
         }
     }
 }
