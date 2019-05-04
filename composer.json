@@ -9,8 +9,9 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "manchuwork/manchu-framework":"dev-master",
-        "manchuwork/laravel-scout-tntsearch-driver":"dev-master"
+        "manchuwork/laravel-scout-tntsearch-driver": "dev-master",
+        "manchuwork/manchu-framework": "dev-master",
+        "spatie/laravel-backup": "^5.12"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
