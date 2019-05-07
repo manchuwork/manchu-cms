@@ -284,5 +284,9 @@ BlocksController:
 
 ```
 
-  可通过 Laravel 提供的 php artisan make:observer 自动生成
+
+备份：
+```php
+php artisan backup:run --disable-notifications
+```
   
